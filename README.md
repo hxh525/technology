@@ -2,10 +2,7 @@
 
 [官网](https://zipkin.io/) [github](https://github.com/openzipkin/zipkin) [下载](https://search.maven.org/remote_content?g=io.zipkin&a=zipkin-server&v=LATEST&c=exec)
 
-
-
 #### mysql数据库创建 \(本次安装版本 zipkin-server-2.15.0-exec.jar\)
-
 
     create schema zipkin default character set utf8 collate utf8_general_ci;
     create user 'zipkin'@'%' identified by 'zipkin';
@@ -62,9 +59,6 @@
       `error_count` BIGINT,
       PRIMARY KEY (`day`, `parent`, `child`)
     ) ENGINE=InnoDB ROW_FORMAT=COMPRESSED CHARACTER SET=utf8 COLLATE utf8_general_ci;
-
-
-
 
 ```
 KAFKA_BOOTSTRAP_SERVERS=106.52.102.223:9092,106.52.105.162:9092,106.52.106.172:9092 java -server -jar /Users/x/Desktop/hxh_story/hxh-paas/zipkin-server-2.15.0-exec.jar --zipkin.storage.type=mysql --zipkin.storage.mysql.host=localhost --zipkin.storage.mysql.port=3306 --zipkin.storage.mysql.username=zipkin --zipkin.storage.mysql.password=zipkin --zipkin.storage.mysql.db=zipkin --zipkin.collector.kafka.zookeeper=106.52.102.223:2181,106.52.105.162:2181,106.52.106.172:2181
