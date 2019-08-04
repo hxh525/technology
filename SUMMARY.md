@@ -5,4 +5,5 @@
 * [java](java.md)
   * [zookeeper&kafka](java/zookeeper.md)
   * [zipkin](README.md)
+* [resource](resource.md)
 
