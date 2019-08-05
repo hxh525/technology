@@ -1,11 +1,10 @@
-# zookeeper && kafka
+#### zookeeper && kafka
 
 [zookeeper下载](https://archive.apache.org/dist/zookeeper/current/)
 
 [kafka下载](http://kafka.apache.org/downloads)
 
 ```
-
 tar -zxvf zookeeper-3.4.14.tar.gz
 
 sudo chmod -R 777 /home/ubuntu/zookeeper-3.4.14

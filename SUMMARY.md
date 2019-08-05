@@ -5,5 +5,7 @@
 * [java](java.md)
   * [zookeeper&kafka](java/zookeeper.md)
   * [zipkin](README.md)
+  * [mysql](java/mysql.md)
+  * [nginx](java/nginx.md)
 * [resource](resource.md)
 

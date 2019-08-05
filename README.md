@@ -1,8 +1,8 @@
-# zipkin server
+#### zipkin server
 
 [官网](https://zipkin.io/) [github](https://github.com/openzipkin/zipkin) [下载](https://search.maven.org/remote_content?g=io.zipkin&a=zipkin-server&v=LATEST&c=exec)
 
-#### mysql数据库创建 \(本次安装版本 zipkin-server-2.15.0-exec.jar\)
+##### mysql数据库创建 \(本次安装版本 zipkin-server-2.15.0-exec.jar\)
 
     create schema zipkin default character set utf8 collate utf8_general_ci;
     create user 'zipkin'@'%' identified by 'zipkin';
