@@ -8,7 +8,6 @@
 tar -zxvf zookeeper-3.4.14.tar.gz
 
 sudo chmod -R 777 /home/ubuntu/zookeeper-3.4.14
-sudo chmod -R 777 /home/ubuntu/kafka_2.11-2.3.0
 
 cp /home/ubuntu/zookeeper-3.4.14/conf/zoo_sample.cfg  /home/ubuntu/zookeeper-3.4.14/conf/zoo.cfg
 
