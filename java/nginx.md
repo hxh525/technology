@@ -1,6 +1,6 @@
 #### nginx 安装包制作
 
-```
+```bash
 #下载nginx 解压包路径 '/usr/local/nginx-1.12.2/nginx-1.12.2.tar.gz'
 wget http://nginx.org/download/nginx-1.12.2.tar.gz
 sudo tar xvf nginx-1.12.2.tar.gz

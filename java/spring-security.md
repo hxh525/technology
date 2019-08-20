@@ -1,6 +1,6 @@
 #### **Spring security 配置**
 
-```
+```java
     **
      * 复写这个方法来配置 {@link HttpSecurity}. 
      * 通常，子类不能通过调用 super 来调用此方法，因为它可能会覆盖其配置。 默认配置为：
@@ -17,8 +17,6 @@ protected void configure(HttpSecurity http) throws Exception {
             .httpBasic();
 }
 ```
-
-
 
 | **方法** | **说明** |
 | :--- | :--- |
