@@ -27,7 +27,7 @@ sudo tar -zxvf nginx-1.12.2.tar.gz -C /usr/local/nginx-1.12.2
 sudo /usr/local/nginx-1.12.2/sbin/nginx
 ```
 
-### nginx 信息
+#### nginx 信息
 
 下载地址: [http://nginx.org/download/nginx-1.12.2.tar.gz](http://nginx.org/download/nginx-1.12.2.tar.gz)
 
@@ -35,8 +35,6 @@ sudo /usr/local/nginx-1.12.2/sbin/nginx
     停止方式: sudo kill -9 `ps aux | grep nginx-1.12.2 | grep -v 'color=auto' | awk '{print $2}'`
     配置文件: /usr/local/nginx-1.12.2/nginx-1.12.2/conf/nginx.conf #当前路径为mysql根路径
     默认访问端口: 8081
-
-
 
 
 

@@ -1,3 +1,25 @@
+#### **Spring security 配置**
+
+```
+    **
+     * 复写这个方法来配置 {@link HttpSecurity}. 
+     * 通常，子类不能通过调用 super 来调用此方法，因为它可能会覆盖其配置。 默认配置为：
+     * 
+     * http.authorizeRequests().anyRequest().authenticated().and().formLogin().and().httpBasic();
+     *
+     */
+protected void configure(HttpSecurity http) throws Exception {
+        http
+            .authorizeRequests()
+                .anyRequest().authenticated()
+                .and()
+            .formLogin().and()
+            .httpBasic();
+}
+```
+
+
+
 | **方法** | **说明** |
 | :--- | :--- |
 | **openidLogin\(\)** | 用于基于 OpenId 的验证 |
