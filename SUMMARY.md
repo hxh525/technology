@@ -7,5 +7,7 @@
   * [zipkin](README.md)
   * [mysql](java/mysql.md)
   * [nginx](java/nginx.md)
+  * [validation](java/validate.md)
+  * [spring security](java/spring-security.md)
 * [resource](resource.md)
 
